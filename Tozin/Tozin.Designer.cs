@@ -533,10 +533,10 @@
             this.MainPages.Location = new System.Drawing.Point(26, 248);
             this.MainPages.Multiline = true;
             this.MainPages.Name = "MainPages";
-            this.MainPages.Page = this.tabPage3;
-            this.MainPages.PageIndex = 2;
-            this.MainPages.PageName = "tabPage3";
-            this.MainPages.PageTitle = "tabPage3";
+            this.MainPages.Page = this.tabPage2;
+            this.MainPages.PageIndex = 1;
+            this.MainPages.PageName = "tabPage2";
+            this.MainPages.PageTitle = "tabPage2";
             this.MainPages.SelectedIndex = 0;
             this.MainPages.Size = new System.Drawing.Size(896, 504);
             this.MainPages.TabIndex = 114;
@@ -1895,7 +1895,7 @@
             this.bunifuDataGridView1.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.bunifuDataGridView1.HeaderBgColor = System.Drawing.Color.Empty;
             this.bunifuDataGridView1.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuDataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuDataGridView1.Location = new System.Drawing.Point(6, 77);
             this.bunifuDataGridView1.Name = "bunifuDataGridView1";
             this.bunifuDataGridView1.RowHeadersVisible = false;
             this.bunifuDataGridView1.RowTemplate.Height = 40;
