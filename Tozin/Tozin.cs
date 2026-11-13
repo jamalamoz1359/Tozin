@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management; // need to add System.Management to your project references.
 
-
+// Jamal Amoz
 
 namespace Tozin
 {
