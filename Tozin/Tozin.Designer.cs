@@ -125,13 +125,6 @@
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panelOption = new DevComponents.DotNetBar.PanelEx();
-            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.textBoxX4 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.bunifuCheckBox2 = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.bunifuCheckbox1 = new Bunifu.Framework.UI.BunifuCheckbox();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -163,6 +156,21 @@
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxX4 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.textBoxX5 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.label12 = new System.Windows.Forms.Label();
+            this.bunifuCheckbox4 = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.bunifuCheckbox1 = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.bunifuCheckbox2 = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBoxX6 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.label14 = new System.Windows.Forms.Label();
             this.PanelTitels.SuspendLayout();
             this.MainPages.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -185,13 +193,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.panelOption.SuspendLayout();
-            this.groupPanel3.SuspendLayout();
-            this.groupPanel2.SuspendLayout();
             this.groupPanel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.TitelPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).BeginInit();
+            this.groupPanel2.SuspendLayout();
+            this.groupPanel3.SuspendLayout();
+            this.groupPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuTransition1
@@ -1927,223 +1936,6 @@
             this.panelOption.Style.GradientAngle = 90;
             this.panelOption.TabIndex = 0;
             // 
-            // groupPanel3
-            // 
-            this.groupPanel3.BackColor = System.Drawing.SystemColors.Control;
-            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel3.Controls.Add(this.groupPanel2);
-            this.bunifuTransition1.SetDecoration(this.groupPanel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.groupPanel3.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel3.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.groupPanel3.Location = new System.Drawing.Point(367, 3);
-            this.groupPanel3.Name = "groupPanel3";
-            this.groupPanel3.Size = new System.Drawing.Size(501, 464);
-            // 
-            // 
-            // 
-            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel3.Style.BackColorGradientAngle = 90;
-            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderBottomWidth = 1;
-            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderLeftWidth = 1;
-            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderRightWidth = 1;
-            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderTopWidth = 1;
-            this.groupPanel3.Style.CornerDiameter = 4;
-            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel3.TabIndex = 120;
-            this.groupPanel3.Text = "تنظیمات برنامه";
-            // 
-            // groupPanel2
-            // 
-            this.groupPanel2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel2.Controls.Add(this.textBoxX4);
-            this.groupPanel2.Controls.Add(this.label10);
-            this.groupPanel2.Controls.Add(this.label2);
-            this.groupPanel2.Controls.Add(this.bunifuCheckBox2);
-            this.groupPanel2.Controls.Add(this.bunifuCheckbox1);
-            this.bunifuTransition1.SetDecoration(this.groupPanel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.groupPanel2.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel2.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.groupPanel2.Location = new System.Drawing.Point(60, 78);
-            this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(358, 143);
-            // 
-            // 
-            // 
-            this.groupPanel2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel2.Style.BackColorGradientAngle = 90;
-            this.groupPanel2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderBottomWidth = 1;
-            this.groupPanel2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderLeftWidth = 1;
-            this.groupPanel2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderRightWidth = 1;
-            this.groupPanel2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderTopWidth = 1;
-            this.groupPanel2.Style.CornerDiameter = 4;
-            this.groupPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel2.TabIndex = 119;
-            this.groupPanel2.Text = "مخارج باسکول ";
-            // 
-            // textBoxX4
-            // 
-            this.textBoxX4.AcceptsReturn = true;
-            this.textBoxX4.AcceptsTab = true;
-            this.textBoxX4.AllowDrop = true;
-            this.textBoxX4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.textBoxX4.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX4.Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(132)))), ((int)(((byte)(65)))), ((int)(((byte)(66)))));
-            this.textBoxX4.Border.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
-            this.textBoxX4.Border.BackColorGradientType = DevComponents.DotNetBar.eGradientType.Radial;
-            this.textBoxX4.Border.Class = "TextBoxBorder";
-            this.textBoxX4.Border.CornerDiameter = 6;
-            this.textBoxX4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.bunifuTransition1.SetDecoration(this.textBoxX4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.textBoxX4.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX4.Enabled = false;
-            this.textBoxX4.FocusHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBoxX4.FocusHighlightEnabled = true;
-            this.textBoxX4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxX4.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX4.Location = new System.Drawing.Point(177, 8);
-            this.textBoxX4.MaxLength = 20;
-            this.textBoxX4.Name = "textBoxX4";
-            this.textBoxX4.PreventEnterBeep = true;
-            this.textBoxX4.Size = new System.Drawing.Size(87, 21);
-            this.textBoxX4.TabIndex = 129;
-            this.textBoxX4.TabStop = false;
-            this.textBoxX4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX4.WatermarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label10, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label10.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label10.ForeColor = System.Drawing.Color.Gray;
-            this.label10.Location = new System.Drawing.Point(146, 11);
-            this.label10.Name = "label10";
-            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label10.Size = new System.Drawing.Size(25, 18);
-            this.label10.TabIndex = 122;
-            this.label10.Text = "ریال";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(280, 11);
-            this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(64, 18);
-            this.label2.TabIndex = 121;
-            this.label2.Text = "مخارج کیلوئی :";
-            // 
-            // bunifuCheckBox2
-            // 
-            this.bunifuCheckBox2.AllowBindingControlAnimation = true;
-            this.bunifuCheckBox2.AllowBindingControlColorChanges = false;
-            this.bunifuCheckBox2.AllowBindingControlLocation = true;
-            this.bunifuCheckBox2.AllowCheckBoxAnimation = false;
-            this.bunifuCheckBox2.AllowCheckmarkAnimation = true;
-            this.bunifuCheckBox2.AllowOnHoverStates = true;
-            this.bunifuCheckBox2.AutoCheck = false;
-            this.bunifuCheckBox2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCheckBox2.BackgroundImage")));
-            this.bunifuCheckBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bunifuCheckBox2.BindingControl = null;
-            this.bunifuCheckBox2.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
-            this.bunifuCheckBox2.Checked = true;
-            this.bunifuCheckBox2.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Checked;
-            this.bunifuCheckBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuCheckBox2.CustomCheckmarkImage = null;
-            this.bunifuTransition1.SetDecoration(this.bunifuCheckBox2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.bunifuCheckBox2.Location = new System.Drawing.Point(237, 86);
-            this.bunifuCheckBox2.MinimumSize = new System.Drawing.Size(17, 17);
-            this.bunifuCheckBox2.Name = "bunifuCheckBox2";
-            this.bunifuCheckBox2.OnCheck.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuCheckBox2.OnCheck.BorderRadius = 1;
-            this.bunifuCheckBox2.OnCheck.BorderThickness = 2;
-            this.bunifuCheckBox2.OnCheck.CheckBoxColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuCheckBox2.OnCheck.CheckmarkColor = System.Drawing.Color.White;
-            this.bunifuCheckBox2.OnCheck.CheckmarkThickness = 2;
-            this.bunifuCheckBox2.OnDisable.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuCheckBox2.OnDisable.BorderRadius = 1;
-            this.bunifuCheckBox2.OnDisable.BorderThickness = 2;
-            this.bunifuCheckBox2.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox2.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
-            this.bunifuCheckBox2.OnDisable.CheckmarkThickness = 2;
-            this.bunifuCheckBox2.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox2.OnHoverChecked.BorderRadius = 1;
-            this.bunifuCheckBox2.OnHoverChecked.BorderThickness = 2;
-            this.bunifuCheckBox2.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox2.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
-            this.bunifuCheckBox2.OnHoverChecked.CheckmarkThickness = 2;
-            this.bunifuCheckBox2.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox2.OnHoverUnchecked.BorderRadius = 1;
-            this.bunifuCheckBox2.OnHoverUnchecked.BorderThickness = 1;
-            this.bunifuCheckBox2.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox2.OnUncheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox2.OnUncheck.BorderRadius = 1;
-            this.bunifuCheckBox2.OnUncheck.BorderThickness = 1;
-            this.bunifuCheckBox2.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox2.Size = new System.Drawing.Size(27, 27);
-            this.bunifuCheckBox2.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Round;
-            this.bunifuCheckBox2.TabIndex = 1;
-            this.bunifuCheckBox2.ThreeState = false;
-            this.bunifuCheckBox2.ToolTipText = null;
-            // 
-            // bunifuCheckbox1
-            // 
-            this.bunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
-            this.bunifuCheckbox1.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
-            this.bunifuCheckbox1.Checked = true;
-            this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
-            this.bunifuTransition1.SetDecoration(this.bunifuCheckbox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.bunifuCheckbox1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCheckbox1.Location = new System.Drawing.Point(244, 60);
-            this.bunifuCheckbox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.bunifuCheckbox1.Name = "bunifuCheckbox1";
-            this.bunifuCheckbox1.Size = new System.Drawing.Size(20, 20);
-            this.bunifuCheckbox1.TabIndex = 0;
-            // 
             // groupPanel1
             // 
             this.groupPanel1.BackColor = System.Drawing.SystemColors.Control;
@@ -2746,6 +2538,365 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Metro;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
+            // groupPanel2
+            // 
+            this.groupPanel2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel2.Controls.Add(this.textBoxX4);
+            this.groupPanel2.Controls.Add(this.label10);
+            this.groupPanel2.Controls.Add(this.label2);
+            this.bunifuTransition1.SetDecoration(this.groupPanel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.groupPanel2.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel2.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.groupPanel2.Location = new System.Drawing.Point(15, 11);
+            this.groupPanel2.Name = "groupPanel2";
+            this.groupPanel2.Size = new System.Drawing.Size(358, 74);
+            // 
+            // 
+            // 
+            this.groupPanel2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel2.Style.BackColorGradientAngle = 90;
+            this.groupPanel2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderBottomWidth = 1;
+            this.groupPanel2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderLeftWidth = 1;
+            this.groupPanel2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderRightWidth = 1;
+            this.groupPanel2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderTopWidth = 1;
+            this.groupPanel2.Style.CornerDiameter = 4;
+            this.groupPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel2.TabIndex = 119;
+            this.groupPanel2.Text = "مخارج باسکول ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label2.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.ForeColor = System.Drawing.Color.Gray;
+            this.label2.Location = new System.Drawing.Point(280, 11);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label2.Size = new System.Drawing.Size(64, 18);
+            this.label2.TabIndex = 121;
+            this.label2.Text = "مخارج کیلوئی :";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label10, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label10.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label10.ForeColor = System.Drawing.Color.Gray;
+            this.label10.Location = new System.Drawing.Point(146, 11);
+            this.label10.Name = "label10";
+            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label10.Size = new System.Drawing.Size(25, 18);
+            this.label10.TabIndex = 122;
+            this.label10.Text = "ریال";
+            // 
+            // textBoxX4
+            // 
+            this.textBoxX4.AcceptsReturn = true;
+            this.textBoxX4.AcceptsTab = true;
+            this.textBoxX4.AllowDrop = true;
+            this.textBoxX4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBoxX4.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX4.Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(132)))), ((int)(((byte)(65)))), ((int)(((byte)(66)))));
+            this.textBoxX4.Border.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
+            this.textBoxX4.Border.BackColorGradientType = DevComponents.DotNetBar.eGradientType.Radial;
+            this.textBoxX4.Border.Class = "TextBoxBorder";
+            this.textBoxX4.Border.CornerDiameter = 6;
+            this.textBoxX4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.bunifuTransition1.SetDecoration(this.textBoxX4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.textBoxX4.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX4.Enabled = false;
+            this.textBoxX4.FocusHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBoxX4.FocusHighlightEnabled = true;
+            this.textBoxX4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxX4.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX4.Location = new System.Drawing.Point(177, 8);
+            this.textBoxX4.MaxLength = 20;
+            this.textBoxX4.Name = "textBoxX4";
+            this.textBoxX4.PreventEnterBeep = true;
+            this.textBoxX4.Size = new System.Drawing.Size(87, 21);
+            this.textBoxX4.TabIndex = 129;
+            this.textBoxX4.TabStop = false;
+            this.textBoxX4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX4.WatermarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            // 
+            // groupPanel3
+            // 
+            this.groupPanel3.BackColor = System.Drawing.SystemColors.Control;
+            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel3.Controls.Add(this.groupPanel4);
+            this.groupPanel3.Controls.Add(this.groupPanel2);
+            this.bunifuTransition1.SetDecoration(this.groupPanel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.groupPanel3.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel3.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.groupPanel3.Location = new System.Drawing.Point(367, 3);
+            this.groupPanel3.Name = "groupPanel3";
+            this.groupPanel3.Size = new System.Drawing.Size(501, 464);
+            // 
+            // 
+            // 
+            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel3.Style.BackColorGradientAngle = 90;
+            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderBottomWidth = 1;
+            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderLeftWidth = 1;
+            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderRightWidth = 1;
+            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderTopWidth = 1;
+            this.groupPanel3.Style.CornerDiameter = 4;
+            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel3.TabIndex = 120;
+            this.groupPanel3.Text = "تنظیمات برنامه";
+            // 
+            // groupPanel4
+            // 
+            this.groupPanel4.BackColor = System.Drawing.SystemColors.Control;
+            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel4.Controls.Add(this.textBoxX6);
+            this.groupPanel4.Controls.Add(this.label14);
+            this.groupPanel4.Controls.Add(this.label13);
+            this.groupPanel4.Controls.Add(this.label11);
+            this.groupPanel4.Controls.Add(this.bunifuCheckbox2);
+            this.groupPanel4.Controls.Add(this.bunifuCheckbox1);
+            this.groupPanel4.Controls.Add(this.textBoxX5);
+            this.groupPanel4.Controls.Add(this.label12);
+            this.groupPanel4.Controls.Add(this.bunifuCheckbox4);
+            this.bunifuTransition1.SetDecoration(this.groupPanel4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.groupPanel4.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel4.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.groupPanel4.Location = new System.Drawing.Point(15, 210);
+            this.groupPanel4.Name = "groupPanel4";
+            this.groupPanel4.Size = new System.Drawing.Size(358, 193);
+            // 
+            // 
+            // 
+            this.groupPanel4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel4.Style.BackColorGradientAngle = 90;
+            this.groupPanel4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderBottomWidth = 1;
+            this.groupPanel4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderLeftWidth = 1;
+            this.groupPanel4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderRightWidth = 1;
+            this.groupPanel4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderTopWidth = 1;
+            this.groupPanel4.Style.CornerDiameter = 4;
+            this.groupPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel4.TabIndex = 120;
+            this.groupPanel4.Text = "کاربر";
+            // 
+            // textBoxX5
+            // 
+            this.textBoxX5.AcceptsReturn = true;
+            this.textBoxX5.AcceptsTab = true;
+            this.textBoxX5.AllowDrop = true;
+            this.textBoxX5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBoxX5.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX5.Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(132)))), ((int)(((byte)(65)))), ((int)(((byte)(66)))));
+            this.textBoxX5.Border.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
+            this.textBoxX5.Border.BackColorGradientType = DevComponents.DotNetBar.eGradientType.Radial;
+            this.textBoxX5.Border.Class = "TextBoxBorder";
+            this.textBoxX5.Border.CornerDiameter = 6;
+            this.textBoxX5.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.bunifuTransition1.SetDecoration(this.textBoxX5, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.textBoxX5.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX5.Enabled = false;
+            this.textBoxX5.FocusHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBoxX5.FocusHighlightEnabled = true;
+            this.textBoxX5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxX5.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX5.Location = new System.Drawing.Point(16, 8);
+            this.textBoxX5.MaxLength = 20;
+            this.textBoxX5.Name = "textBoxX5";
+            this.textBoxX5.PreventEnterBeep = true;
+            this.textBoxX5.Size = new System.Drawing.Size(248, 21);
+            this.textBoxX5.TabIndex = 129;
+            this.textBoxX5.TabStop = false;
+            this.textBoxX5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX5.WatermarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label12, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label12.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label12.ForeColor = System.Drawing.Color.Gray;
+            this.label12.Location = new System.Drawing.Point(280, 11);
+            this.label12.Name = "label12";
+            this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label12.Size = new System.Drawing.Size(64, 18);
+            this.label12.TabIndex = 121;
+            this.label12.Text = "نام کاربر جدبد :";
+            // 
+            // bunifuCheckbox4
+            // 
+            this.bunifuCheckbox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuCheckbox4.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.bunifuCheckbox4.Checked = true;
+            this.bunifuCheckbox4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuTransition1.SetDecoration(this.bunifuCheckbox4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuCheckbox4.ForeColor = System.Drawing.Color.White;
+            this.bunifuCheckbox4.Location = new System.Drawing.Point(321, 72);
+            this.bunifuCheckbox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bunifuCheckbox4.Name = "bunifuCheckbox4";
+            this.bunifuCheckbox4.Size = new System.Drawing.Size(20, 20);
+            this.bunifuCheckbox4.TabIndex = 0;
+            // 
+            // bunifuCheckbox1
+            // 
+            this.bunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuCheckbox1.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.bunifuCheckbox1.Checked = true;
+            this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuTransition1.SetDecoration(this.bunifuCheckbox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuCheckbox1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCheckbox1.Location = new System.Drawing.Point(321, 105);
+            this.bunifuCheckbox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.bunifuCheckbox1.Name = "bunifuCheckbox1";
+            this.bunifuCheckbox1.Size = new System.Drawing.Size(20, 20);
+            this.bunifuCheckbox1.TabIndex = 130;
+            // 
+            // bunifuCheckbox2
+            // 
+            this.bunifuCheckbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuCheckbox2.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.bunifuCheckbox2.Checked = true;
+            this.bunifuCheckbox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuTransition1.SetDecoration(this.bunifuCheckbox2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuCheckbox2.ForeColor = System.Drawing.Color.White;
+            this.bunifuCheckbox2.Location = new System.Drawing.Point(321, 141);
+            this.bunifuCheckbox2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.bunifuCheckbox2.Name = "bunifuCheckbox2";
+            this.bunifuCheckbox2.Size = new System.Drawing.Size(20, 20);
+            this.bunifuCheckbox2.TabIndex = 131;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label11, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label11.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label11.ForeColor = System.Drawing.Color.Gray;
+            this.label11.Location = new System.Drawing.Point(256, 72);
+            this.label11.Name = "label11";
+            this.label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label11.Size = new System.Drawing.Size(58, 18);
+            this.label11.TabIndex = 132;
+            this.label11.Text = "تهیه گزارشات";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label13, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label13.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label13.ForeColor = System.Drawing.Color.Gray;
+            this.label13.Location = new System.Drawing.Point(267, 107);
+            this.label13.Name = "label13";
+            this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label13.Size = new System.Drawing.Size(47, 18);
+            this.label13.TabIndex = 133;
+            this.label13.Text = "چاپ کردن";
+            // 
+            // textBoxX6
+            // 
+            this.textBoxX6.AcceptsReturn = true;
+            this.textBoxX6.AcceptsTab = true;
+            this.textBoxX6.AllowDrop = true;
+            this.textBoxX6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBoxX6.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX6.Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(132)))), ((int)(((byte)(65)))), ((int)(((byte)(66)))));
+            this.textBoxX6.Border.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
+            this.textBoxX6.Border.BackColorGradientType = DevComponents.DotNetBar.eGradientType.Radial;
+            this.textBoxX6.Border.Class = "TextBoxBorder";
+            this.textBoxX6.Border.CornerDiameter = 6;
+            this.textBoxX6.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.bunifuTransition1.SetDecoration(this.textBoxX6, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.textBoxX6.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX6.Enabled = false;
+            this.textBoxX6.FocusHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBoxX6.FocusHighlightEnabled = true;
+            this.textBoxX6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxX6.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX6.Location = new System.Drawing.Point(16, 35);
+            this.textBoxX6.MaxLength = 20;
+            this.textBoxX6.Name = "textBoxX6";
+            this.textBoxX6.PreventEnterBeep = true;
+            this.textBoxX6.Size = new System.Drawing.Size(248, 21);
+            this.textBoxX6.TabIndex = 135;
+            this.textBoxX6.TabStop = false;
+            this.textBoxX6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX6.WatermarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label14, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label14.Font = new System.Drawing.Font("B Mitra", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label14.ForeColor = System.Drawing.Color.Gray;
+            this.label14.Location = new System.Drawing.Point(280, 38);
+            this.label14.Name = "label14";
+            this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label14.Size = new System.Drawing.Size(44, 18);
+            this.label14.TabIndex = 134;
+            this.label14.Text = "رمز عبور :";
+            // 
             // Main_Toain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
@@ -2792,9 +2943,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.panelOption.ResumeLayout(false);
-            this.groupPanel3.ResumeLayout(false);
-            this.groupPanel2.ResumeLayout(false);
-            this.groupPanel2.PerformLayout();
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -2803,6 +2951,11 @@
             this.TitelPanel.ResumeLayout(false);
             this.TitelPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).EndInit();
+            this.groupPanel2.ResumeLayout(false);
+            this.groupPanel2.PerformLayout();
+            this.groupPanel3.ResumeLayout(false);
+            this.groupPanel4.ResumeLayout(false);
+            this.groupPanel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2894,11 +3047,7 @@
         private Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView1;
         private System.Windows.Forms.TabPage tabPage3;
         private DevComponents.DotNetBar.PanelEx panelOption;
-        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel2;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
-        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel3;
-        private Bunifu.UI.WinForms.BunifuCheckBox bunifuCheckBox2;
-        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labelToneBaschol;
         private DevComponents.DotNetBar.Controls.Line line1;
@@ -2920,9 +3069,21 @@
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
         private DevComponents.DotNetBar.Controls.ComboBoxEx comPort;
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX3;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel3;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel4;
+        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX5;
+        private System.Windows.Forms.Label label12;
+        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox4;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel2;
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
+        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX6;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label11;
+        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox2;
+        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox1;
     }
 }
 
